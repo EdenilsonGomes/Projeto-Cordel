@@ -86,7 +86,7 @@ section.imagem {
     padding-bottom: 70px;
     font-size: clamp(1.75em, 1em + 3vw, 4em); 
     font-family: 'sriracha', Helvetica, sans-serif;
-    background: black url(/imagens/background001.jpg) center center no-repeat fixed;
+    background: black url(~/imagens/background001.jpg) center center no-repeat fixed;
     background-size: cover;  
 }
 
@@ -102,7 +102,7 @@ section.imagem2 {
     padding-bottom: 70px;
     font-size: clamp(1.75em, 1em + 3vw, 4em); 
     font-family: 'sriracha', Helvetica, sans-serif;
-    background: black url(/imagens/background002.jpg) center center no-repeat fixed;
+    background: black url(~/imagens/background002.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
