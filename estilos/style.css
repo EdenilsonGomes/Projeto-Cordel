@@ -7,12 +7,12 @@
 
 @font-face {
     font-family: 'passionone';
-    src: url('/fontes/passion_one/passionone-regular.ttf') 
+    src: url('~/fontes/passion_one/passionone-regular.ttf') 
     format('truetype');
 }
 @font-face {
     font-family: 'sriracha';
-    src: url('/fontes/sriracha/sriracha-regular.ttf') 
+    src: url('~/fontes/sriracha/sriracha-regular.ttf') 
     format('truetype');
 }
 
