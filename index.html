@@ -4,9 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css">
+    
     <title>Cordel Moderno</title>
 </head>
+
+<style>
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'passionone';
+    src: url('~/fontes/passion_one/passionone-regular.ttf') 
+    format('truetype');
+}
+@font-face {
+    font-family: 'sriracha';
+    src: url('~/fontes/sriracha/sriracha-regular.ttf') 
+    format('truetype');
+}
+
+
+header {
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+header > h1 {
+    font-family: 'passionone', Courier, monospace;
+    color: white;
+    font-variant: small-caps ;
+    font-size: 10vw;
+     
+   
+    
+}
+
+header > p {
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+header > p > a {
+   color: white;
+    font-weight: bold;
+   text-decoration: none;
+   
+}
+
+header > p > a:hover {
+    border-bottom: 2px solid white;
+} 
+
+header > p {
+    padding-bottom: 30px;
+}
+
+body > p {
+    font-family: 'sriracha', Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 2em;
+    padding-top: 60px;
+    padding-left: 25px;
+}
+
+section.normal {
+    padding-top: 140px;
+    padding-left: 30px;
+    padding-bottom: 250px;
+    font-size: clamp(1.75em, 1em + 3vw, 4em);
+    font-family: 'sriracha', Helvetica, sans-serif;
+}
+
+section.p-junto1 {
+    padding-top: 140px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    font-size: clamp(1.75em, 1em + 3vw, 4em);
+    font-family: 'sriracha', Helvetica, sans-serif;padding-bottom: -0px;
+}
+
+section.imagem {
+    color: white;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-bottom: 70px;
+    font-size: clamp(1.75em, 1em + 3vw, 4em); 
+    font-family: 'sriracha', Helvetica, sans-serif;
+    background: black url(~/imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;  
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.589);
+    max-width: 12em;
+ }
+
+section.imagem2 {
+    color: white;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-bottom: 70px;
+    font-size: clamp(1.75em, 1em + 3vw, 4em); 
+    font-family: 'sriracha', Helvetica, sans-serif;
+    background: black url(~/imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+section.imagem2 > p {
+    background-color: rgba(0, 0, 0, 0.589);
+    max-width: 12em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+</style>
+
 <body>
     <header>
         <h1>Cordel Moderno</h1>
